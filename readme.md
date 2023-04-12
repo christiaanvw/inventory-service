@@ -18,7 +18,7 @@ Via your IDE or:
 ```
 navigate to [swagger-ui](http://localhost:8080/swagger-ui.html)
 
-navigate to [h2-console](http://localhost:8080/h2-console) (default login applies: username=s2, no password)
+navigate to [h2-console](http://localhost:8080/h2-console) (default login applies: username=sa, no password)
 
 ## Usage via curl
 (No guarantees, below is copied from swagger-ui without testing)
@@ -41,7 +41,7 @@ curl -X 'PATCH' \
   -H 'accept: */*' \
   -H 'Content-Type: application/json' \
   -d '{
-  "totalStock": 99
+  "totalStock": 100
 }'
 ```
 3. Create reservation
